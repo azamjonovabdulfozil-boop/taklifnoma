@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Diyorbek va Nozimaxon to'yi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Marcellus&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="petals" aria-hidden="true"></canvas>
+
+<div id="cover">
+  <div class="bg"></div><div class="frame"></div>
+  <div class="cover-in">
+    <div class="eyebrow">Siz taklif qilindingiz</div>
+    <div class="big">Diyorbek &amp; Nozimaxon</div>
+    <button class="env" id="env" aria-label="Taklifnomani ochish">
+      <div class="env-back"></div>
+      <div class="letter"><img src="images/rasm2.jpg" alt=""><span>22 · 11 · 2026</span></div>
+      <div class="env-front"><svg viewBox="0 0 290 200" preserveAspectRatio="none" aria-hidden="true">
+        <defs><linearGradient id="ef" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22386b"/><stop offset="1" stop-color="#0e1d3d"/></linearGradient></defs>
+        <path d="M0 0 L145 112 L0 200Z" fill="#172a55"/><path d="M290 0 L145 112 L290 200Z" fill="#14264d"/>
+        <path d="M0 200 L145 98 L290 200Z" fill="url(#ef)"/>
+        <path d="M0 200 L145 98 L290 200" fill="none" stroke="#c9a25a" stroke-width="1.2"/>
+        <path d="M12 192 L145 106 L278 192" fill="none" stroke="#c9a25a" stroke-width=".6" opacity=".5"/>
+      </svg></div>
+      <div class="flap"><svg viewBox="0 0 290 116" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 0 H290 L145 116Z" fill="#203770"/>
+        <path d="M0 0 L145 116 L290 0" fill="none" stroke="#c9a25a" stroke-width="1.4"/>
+        <path d="M14 4 L145 108 L276 4" fill="none" stroke="#c9a25a" stroke-width=".6" opacity=".55"/>
+      </svg></div>
+      <div class="seal">D&amp;N</div>
+    </button>
+    <div class="tap"><span class="dot"></span>Taklifnomani ochish</div>
+  </div>
+</div>
+
+<main id="main" aria-hidden="true">
+  <header class="hero wrap">
+    <div class="ph"></div>
+    <div class="inner">
+      <div class="eyebrow">Nikoh to'yiga taklifnoma</div>
+      <h1 class="names">Diyorbek<span class="amp">&amp;</span>Nozimaxon</h1>
+      <div class="hero-date">22 · NOYABR · 2026</div>
+    </div>
+  </header>
+
+  <section class="sec paper wrap">
+    <div class="inner rv">
+      <div class="bism">Xayrli kunlar muborak bo'lsin!</div>
+      <svg class="orn" viewBox="0 0 220 24" aria-hidden="true"><g fill="none" stroke="currentColor"><path d="M0 12 H86 M134 12 H220"/><path d="M110 2 L120 12 L110 22 L100 12Z"/><circle cx="110" cy="12" r="3" fill="currentColor"/><circle cx="92" cy="12" r="2" fill="currentColor"/><circle cx="128" cy="12" r="2" fill="currentColor"/></g></svg>
+      <p class="lead">Qadrli va aziz mehmonimiz! Sizni hayotimizdagi eng quvonchli kunga, farzandlarimizning nikoh to'yiga lutfan taklif etamiz</p>
+      <p class="poem">
+        <span>Ikki qalb bir yo'lni tanladi,</span>
+        <span>Taqdir bitdi duolar bilan.</span>
+        <span>Ota-onaning ko'z yoshlari</span>
+        <span>Baxtga aylandi shu kun bilan.</span>
+        <span class="gap"></span>
+        <span>Sizsiz bazmimiz to'kis bo'lmas,</span>
+        <span>Tashrifingiz dilga quvonch.</span>
+        <span>Shu oqshomni biz bilan birga</span>
+        <span>Baham ko'ring, bo'lsin unutilmas.</span>
+      </p>
+    </div>
+  </section>
+
+  <section class="sec band wrap">
+    <div class="ph" data-par style="background-image:url(images/rasm3.jpg)"></div>
+    <div class="inner rv">
+      <div class="eyebrow">To'yimizgacha</div>
+      <h2>Qolgan vaqt</h2>
+      <div class="count">
+        <div><b id="cd-d">00</b><small>kun</small></div>
+        <div><b id="cd-h">00</b><small>soat</small></div>
+        <div><b id="cd-m">00</b><small>daqiqa</small></div>
+        <div><b id="cd-s">00</b><small>soniya</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec paper wrap">
+    <div class="portrait rv">
+      <figure><img src="images/rasm4.jpg" alt="Kelin va kuyov nikoh uzuklarini ko'rsatmoqda"></figure>
+      <div class="txt">
+        <div class="eyebrow">Kelin-kuyov</div>
+        <h2>Bir umrga</h2>
+        <p>Ikki oila bir dasturxon atrofida jamlanadigan, ikki yosh qalb bir umrlik ahd qiladigan kun yaqinlashmoqda. Shu kunni siz bilan birga nishonlashni istaymiz.</p>
+        <div class="sig">Diyorbek &amp; Nozimaxon</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec wrap" style="background:var(--ivory)">
+    <div class="inner rv" style="max-width:760px">
+      <div class="eyebrow">Bizning to'yimizga</div>
+      <h2>Marhamat qiling</h2>
+      <div class="details">
+        <div class="d"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><small>Sana</small><b>22 noyabr 2026<br>Yakshanba</b></div>
+        <div class="d"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><small>Vaqt</small><b>Soat 13:00 da</b></div>
+        <div class="d"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M12 21s7-7.5 7-12a7 7 0 0 0-14 0c0 4.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg><small>Manzil</small><b>«Afruza» to'yxonasi</b></div>
+      </div>
+      <a class="btn" href="https://maps.app.goo.gl/CJw9vgsyffo7KNz66" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+        Yo'nalish olish
+      </a>
+    </div>
+  </section>
+
+  <section class="sec paper wrap">
+    <div class="inner rv" style="max-width:900px">
+      <div class="eyebrow">Xotira lahzalari</div>
+      <h2>Baxtli onlar</h2>
+      <div class="gal" id="gal">
+        <button class="gw" data-i="0" aria-label="Rasm 1"><img src="images/rasm2.jpg" alt="Kelin va kuyov havorang eshik oldida"></button>
+        <button class="gw" data-i="1" aria-label="Rasm 2"><img src="images/rasm1.jpg" alt="Kelin va kuyov guvohnoma bilan"></button>
+        <button class="gw" data-i="2" aria-label="Rasm 3"><img src="images/rasm5.jpg" alt="Atirgullar va guvohnoma"></button>
+        <button class="gw" data-i="3" aria-label="Rasm 4"><img src="images/rasm3.jpg" alt="Nikoh guvohnomasi"></button>
+        <button class="gt" data-i="4" aria-label="Rasm 5"><img src="images/rasm6.jpg" alt="Nikoh uzuklari"></button>
+        <button class="gt" data-i="5" aria-label="Rasm 6"><img src="images/rasm4.jpg" alt="Uzuklarni ko'rsatmoqda"></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec band final wrap">
+    <div class="ph" data-par style="background-image:url(images/rasm5.jpg)"></div>
+    <div class="inner rv">
+      <div class="big">Sizni kutamiz!</div>
+      <p>Tashrifingiz biz uchun eng qimmatli sovg'a. Shodiyonamizga sherik bo'ling.</p>
+      <div class="sig">Hurmat bilan,<br>Abduraxmonovlar oilasi</div>
+    </div>
+  </section>
+</main>
+
+<div id="lb" hidden role="dialog" aria-label="Rasm">
+  <img id="lbimg" alt="">
+  <button class="x" aria-label="Yopish">✕</button>
+  <button class="pv" aria-label="Oldingi">‹</button>
+  <button class="nx" aria-label="Keyingi">›</button>
+</div>
+
+<button id="music" aria-label="Musiqani o'chirish" hidden><span class="bars"><i></i><i></i><i></i><i></i></span></button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
