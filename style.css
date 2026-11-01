@@ -1,3 +1,10 @@
+/* Base reset (the online version had this built in) */
+html,body{margin:0;padding:0}
+[hidden]{display:none!important}
+img{max-width:100%}
+:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+button{font:inherit}
+
 /* Layout: sealed envelope over the couple's photo; then full-bleed photo bands alternate with ivory paper sections, like turning pages of a wedding album. */
 :root{
   --navy:#0e1d3d; --navy-2:#1a2d58; --gold:#c9a25a; --gold-soft:#ecd6a4; --rose:#a3182c;
@@ -68,7 +75,7 @@ p{margin:0}
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,29,61,.15) 0%,rgba(14,29,61,0) 35%,rgba(14,29,61,.55) 62%,rgba(14,29,61,.95) 100%)}
 .hero .inner{position:relative;z-index:2;padding-block:0 64px;gap:12px}
 .hero .eyebrow{color:var(--gold-soft)}
-.names{font-family:var(--script);font-size:clamp(46px,12.5vw,92px);line-height:.95;color:#fff;text-shadow:0 4px 30px rgba(0,0,0,.4)}
+.names{font-family:var(--script);font-size:clamp(40px,11vw,92px);line-height:.95;color:#fff;text-shadow:0 4px 30px rgba(0,0,0,.4)}
 .names .amp{color:var(--gold);font-size:.55em;padding-inline:.15em}
 .hero-date{font-family:var(--caps);letter-spacing:.3em;font-size:15px;color:var(--gold-soft);border-block:1px solid rgba(236,214,164,.5);padding:8px 18px}
 .scroll{margin-top:14px;width:24px;height:38px;border:1px solid var(--gold-soft);border-radius:12px;position:relative}
